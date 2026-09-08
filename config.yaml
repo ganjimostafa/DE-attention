@@ -1,0 +1,47 @@
+# DEAttention — Phase 3 multi-seed protocol (JMMR-2606-1990)
+# Matches notebooks/pure_models.ipynb CONFIG used for Table 3 / A1 / m-sweep.
+
+seeds: [0, 1, 2, 3, 4]          # IMDb main/ablation used 0..4; Twitter / m-sweep used 0..9
+mode: main                       # main | ablation | m_sweep
+datasets: [imdb, twitter]
+
+epochs: 5
+batch_size: 32
+lr: 1.0e-3
+embed_dim: 64
+num_heads: 1
+num_layers: 2
+hidden_dim: 128
+max_len: 300
+
+mutation_factor: 0.5             # default for main/ablation; m_sweep sweeps below
+crossover_rate: 0.9              # DE/best/1/bin
+jde_F_init: 0.5
+jde_tau1: 0.1
+jde_tau2: 0.1
+m_sweep_values: [0.1, 0.3, 0.5, 0.7, 0.9]
+
+val_ratio: 0.1
+early_stop_patience: 2
+twitter_max_train: 200000
+twitter_test_size: 20000
+
+# Update these paths locally / on Colab Drive
+output_dir: ./results
+data_paths:
+  imdb: ./data/IMDB Dataset.csv
+  yelp: ./data/yelp.csv
+  twitter: ./data/twitter.csv
+
+main_models: [standard, de_full, de_best, jde, diff]
+ablation_models:
+  - standard
+  - diff
+  - de_full
+  - de_best
+  - jde
+  - de_avg3
+  - de_learned
+  - de_sum
+  - de_nobase
+  - de_indepV

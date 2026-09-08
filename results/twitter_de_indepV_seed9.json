@@ -1,0 +1,16 @@
+{
+  "dataset": "twitter",
+  "model": "de_indepV",
+  "seed": 9,
+  "mutation_factor": 0.5,
+  "params": 9357313,
+  "train_minutes": 5.384407599767049,
+  "best_val_acc": 0.7799,
+  "best_epoch": 2,
+  "test_acc": 0.77745,
+  "test_f1_macro": 0.777260733433565,
+  "test_f1_weighted": 0.7772594348636409,
+  "test_precision": 0.7947955390334572,
+  "test_recall": 0.7481503699260148,
+  "test_balanced_acc": 0.7774558610982345
+}

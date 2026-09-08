@@ -1,0 +1,16 @@
+{
+  "dataset": "imdb",
+  "model": "de_sum",
+  "seed": 3,
+  "mutation_factor": 0.5,
+  "params": 4787905,
+  "train_minutes": 1.163352942466736,
+  "best_val_acc": 0.8516,
+  "best_epoch": 4,
+  "test_acc": 0.85552,
+  "test_f1_macro": 0.8555133189358676,
+  "test_f1_weighted": 0.8555153625554847,
+  "test_precision": 0.8524992091110408,
+  "test_recall": 0.8605300973974134,
+  "test_balanced_acc": 0.8555095572765485
+}

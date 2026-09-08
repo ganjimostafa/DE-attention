@@ -1,0 +1,16 @@
+{
+  "dataset": "twitter",
+  "model": "de_learned",
+  "seed": 7,
+  "mutation_factor": 0.5,
+  "params": 9361991,
+  "train_minutes": 6.28843158086141,
+  "best_val_acc": 0.78575,
+  "best_epoch": 3,
+  "test_acc": 0.7929,
+  "test_f1_macro": 0.7927725468272007,
+  "test_f1_weighted": 0.792771518979033,
+  "test_precision": 0.8083561355504104,
+  "test_recall": 0.7679464107178564,
+  "test_balanced_acc": 0.7929049917161997
+}

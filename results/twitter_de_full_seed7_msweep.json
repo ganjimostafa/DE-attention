@@ -1,0 +1,35 @@
+{
+  "dataset": "twitter",
+  "model": "de_full",
+  "seed": 7,
+  "best_m_val": 0.1,
+  "val_acc_at_best_m": 0.78435,
+  "m_sweep_val": [
+    {
+      "m": 0.1,
+      "val_acc": 0.78435
+    },
+    {
+      "m": 0.3,
+      "val_acc": 0.7806
+    },
+    {
+      "m": 0.5,
+      "val_acc": 0.78065
+    },
+    {
+      "m": 0.7,
+      "val_acc": 0.7833
+    },
+    {
+      "m": 0.9,
+      "val_acc": 0.7778
+    }
+  ],
+  "test_acc": 0.79285,
+  "test_f1_macro": 0.7926526628739421,
+  "test_f1_weighted": 0.792651383540872,
+  "test_precision": 0.8122801407099456,
+  "test_recall": 0.7618476304739052,
+  "test_balanced_acc": 0.7928562017142481
+}

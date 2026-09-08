@@ -1,0 +1,35 @@
+{
+  "dataset": "imdb",
+  "model": "de_full",
+  "seed": 8,
+  "best_m_val": 0.5,
+  "val_acc_at_best_m": 0.8652,
+  "m_sweep_val": [
+    {
+      "m": 0.1,
+      "val_acc": 0.8632
+    },
+    {
+      "m": 0.3,
+      "val_acc": 0.862
+    },
+    {
+      "m": 0.5,
+      "val_acc": 0.8652
+    },
+    {
+      "m": 0.7,
+      "val_acc": 0.8616
+    },
+    {
+      "m": 0.9,
+      "val_acc": 0.8644
+    }
+  ],
+  "test_acc": 0.85024,
+  "test_f1_macro": 0.8502192856866841,
+  "test_f1_weighted": 0.8502156219305875,
+  "test_precision": 0.8605090311986864,
+  "test_recall": 0.8367395816701262,
+  "test_balanced_acc": 0.8502681394000784
+}
