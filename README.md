@@ -2,7 +2,7 @@
 
 Code accompanying the JMMR manuscript **DEAttention: A Contrastive Differential Attention Mechanism for Sentiment Analysis** (MS ID: JMMR-2606-1990).
 
-Public repository: <https://github.com/ganjimostafa/DE-attontion>
+Public repository: <https://github.com/ganjimostafa/DE-attention>
 
 ## What is included
 
